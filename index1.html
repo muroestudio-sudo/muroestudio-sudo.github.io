@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clic Z8 | Mini Sesiones Navideñas 2026</title>
+<style>
+:root{--red:#8f1d25;--green:#183b32;--gold:#c9a45c;--cream:#fffaf2;--dark:#171513;--muted:#6e665d;--white:#fff}
+*{box-sizing:border-box} body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--cream);color:var(--dark)}
+header{min-height:620px;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff;position:relative;overflow:hidden;background:linear-gradient(135deg,rgba(20,17,15,.9),rgba(82,18,24,.78)),radial-gradient(circle at 30% 20%,#8f1d25,transparent 38%),radial-gradient(circle at 75% 70%,#b78b45,transparent 30%),#182b25}
+header:before{content:"";position:absolute;inset:0;background:radial-gradient(circle,rgba(255,220,150,.35) 0 2px,transparent 3px) 0 0/55px 55px;opacity:.35}
+.hero{position:relative;z-index:1;max-width:850px;padding:40px 20px}.eyebrow{letter-spacing:4px;text-transform:uppercase;color:#f1d99c;font-size:14px;font-weight:bold}
+h1{font-family:Georgia,serif;font-size:clamp(42px,7vw,78px);margin:18px 0 10px;line-height:1.02}.hero p{font-size:20px;line-height:1.6;margin:12px auto 24px;max-width:650px}.price{font-size:36px;font-weight:800;color:#ffe5a9;margin:15px}
+.btn{display:inline-block;border:0;border-radius:999px;padding:15px 25px;font-weight:800;text-decoration:none;cursor:pointer;background:var(--gold);color:#20180d;box-shadow:0 8px 25px rgba(0,0,0,.2)}.btn.secondary{background:var(--green);color:#fff}.btn.full{width:100%}
+section{padding:70px 20px}.container{max-width:1100px;margin:auto}h2{font-family:Georgia,serif;font-size:38px;text-align:center;margin:0 0 12px}.lead{text-align:center;color:var(--muted);max-width:700px;margin:0 auto 35px;line-height:1.6}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.card{background:#fff;padding:28px 20px;border-radius:18px;text-align:center;box-shadow:0 8px 30px rgba(42,28,18,.08)}.icon{font-size:34px}.card h3{margin:12px 0 6px}.card p{color:var(--muted);line-height:1.5}
+.booking{background:#f4eadb}.booking-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px}.panel{background:#fff;border-radius:22px;padding:28px;box-shadow:0 10px 35px rgba(42,28,18,.08)}
+label{display:block;font-weight:700;margin:14px 0 7px}input,select,textarea{width:100%;padding:13px 14px;border:1px solid #ddd0bf;border-radius:10px;font:inherit;background:#fff}textarea{min-height:90px;resize:vertical}
+.calendar-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}.calendar-head button{border:0;background:#eee4d6;border-radius:10px;padding:9px 13px;cursor:pointer}.month-title{font-weight:800}.week{display:grid;grid-template-columns:repeat(7,1fr);gap:5px;font-size:12px;color:var(--muted);text-align:center;margin-bottom:5px}.days{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}.day{min-height:44px;border:1px solid #eadfce;background:#fff;border-radius:9px;cursor:pointer}.day:hover{border-color:var(--gold)}.day.muted{opacity:.35;cursor:default}.day.selected{background:var(--green);color:#fff;border-color:var(--green)}.day.disabled{background:#eee;color:#aaa;cursor:not-allowed}.slots{display:grid;grid-template-columns:repeat(2,1fr);gap:9px;margin-top:15px}.slot{padding:11px;border:1px solid #ddd0bf;border-radius:10px;background:#fff;cursor:pointer}.slot.selected{background:var(--red);color:#fff;border-color:var(--red)}.slot.taken{background:#eee;color:#aaa;text-decoration:line-through;cursor:not-allowed}
+.notice{padding:14px;border-radius:12px;background:#fff7e5;color:#6d5423;font-size:14px;line-height:1.5;margin-top:15px}
+.summary{background:#f7f2eb;border-radius:14px;padding:18px;margin:18px 0;line-height:1.8}.summary strong{color:var(--green)}
+footer{background:var(--dark);color:#fff;text-align:center;padding:45px 20px}.wa{position:fixed;right:22px;bottom:22px;background:#25D366;color:#fff;width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:27px;text-decoration:none;box-shadow:0 8px 25px rgba(0,0,0,.25);z-index:10}
+.admin{display:none}.admin table{width:100%;border-collapse:collapse}.admin th,.admin td{padding:10px;border-bottom:1px solid #eee;text-align:left;font-size:14px}
+@media(max-width:850px){.cards{grid-template-columns:repeat(2,1fr)}.booking-grid{grid-template-columns:1fr}}
+@media(max-width:520px){section{padding:50px 15px}.cards{grid-template-columns:1fr}.panel{padding:20px}header{min-height:570px}.slots{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+<header>
+  <div class="hero">
+    <div class="eyebrow">Clic Z8 · Navidad 2026</div>
+    <h1>Mini Sesiones Fotográficas Navideñas</h1>
+    <p>Crea recuerdos que durarán para siempre. Reserva tu fecha y vive una experiencia navideña especial junto a tu familia.</p>
+    <div class="price">₡10.000</div>
+    <a class="btn" href="#reservar">📅 RESERVAR MI SESIÓN</a>
+  </div>
+</header>
+
+<section>
+<div class="container">
+<h2>¿Qué incluye tu sesión?</h2>
+<p class="lead">Una experiencia pensada para guardar los momentos más especiales de esta Navidad.</p>
+<div class="cards">
+<div class="card"><div class="icon">📸</div><h3>Sesión fotográfica</h3><p>Sesión profesional con Clic Z8.</p></div>
+<div class="card"><div class="icon">🎄</div><h3>Escenografía</h3><p>Ambiente navideño preparado para tus fotografías.</p></div>
+<div class="card"><div class="icon">👨‍👩‍👧‍👦</div><h3>Para la familia</h3><p>Ideal para familias, parejas y niños.</p></div>
+<div class="card"><div class="icon">✨</div><h3>Precio especial</h3><p>Mini sesión por solamente ₡10.000.</p></div>
+</div>
+</div>
+</section>
+
+<section class="booking" id="reservar">
+<div class="container">
+<h2>Reserva tu fecha</h2>
+<p class="lead">Selecciona un día disponible y después elige tu horario.</p>
+<div class="booking-grid">
+<div class="panel">
+  <div class="calendar-head">
+    <button id="prev">‹</button><div class="month-title" id="monthTitle"></div><button id="next">›</button>
+  </div>
+  <div class="week"><b>DOM</b><b>LUN</b><b>MAR</b><b>MIÉ</b><b>JUE</b><b>VIE</b><b>SÁB</b></div>
+  <div class="days" id="days"></div>
+  <div class="notice">📅 Temporada regular: octubre y noviembre de 2026.<br>🎄 Sesiones extraordinarias: del 1 al 6 de diciembre de 2026.</div>
+</div>
+
+<div class="panel">
+  <h3 id="selectedDateText">1. Selecciona una fecha</h3>
+  <div id="slots" class="slots"></div>
+  <form id="bookingForm">
+    <label>Nombre completo *</label><input id="name" required>
+    <label>WhatsApp / teléfono *</label><input id="phone" type="tel" required>
+    <label>Correo electrónico *</label><input id="email" type="email" required>
+    <label>Cantidad de personas (máximo 5) *</label><input id="people" type="number" min="1" max="5" value="1" required>
+    <label>Nombres de participantes</label><input id="participants">
+    <label>Solicitud especial</label><textarea id="special"></textarea>
+    <div class="summary" id="summary">Selecciona fecha y hora para ver el resumen.</div>
+    <button class="btn full" type="submit">📲 CONFIRMAR Y ENVIAR A WHATSAPP</button>
+  </form>
+</div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="container" style="text-align:center">
+<h2>🎄 Últimas fechas navideñas</h2>
+<p class="lead">¿No pudiste reservar en octubre o noviembre? Abrimos sesiones extraordinarias del <strong>1 al 6 de diciembre de 2026</strong>.</p>
+<a class="btn secondary" href="#reservar">RESERVAR SESIÓN EXTRAORDINARIA</a>
+</div>
+</section>
+
+<footer>
+<strong>Clic Z8</strong><br>
+Mini Sesiones Fotográficas Navideñas 2026<br><br>
+📱 WhatsApp: 8831-4475
+</footer>
+
+<a class="wa" href="https://wa.me/50688314475" target="_blank" aria-label="WhatsApp">☘</a>
+
+<script>
+const monthNames=["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
+let view=new Date(2026,9,1), selectedDate=null, selectedTime=null;
+const bookings=JSON.parse(localStorage.getItem("clicz8_bookings")||"{}");
+
+function allowed(d){
+ const t=new Date(d.getFullYear(),d.getMonth(),d.getDate());
+ const a=new Date(2026,9,1), b=new Date(2026,11,6);
+ return t>=a&&t<=b;
+}
+function dateKey(d){return d.toISOString().slice(0,10)}
+function render(){
+ document.getElementById("monthTitle").textContent=monthNames[view.getMonth()]+" "+view.getFullYear();
+ const box=document.getElementById("days"); box.innerHTML="";
+ const first=new Date(view.getFullYear(),view.getMonth(),1).getDay();
+ const total=new Date(view.getFullYear(),view.getMonth()+1,0).getDate();
+ for(let i=0;i<first;i++){let x=document.createElement("button");x.className="day muted";x.disabled=true;box.appendChild(x)}
+ for(let n=1;n<=total;n++){
+   let d=new Date(view.getFullYear(),view.getMonth(),n), x=document.createElement("button");
+   x.textContent=n; x.className="day";
+   if(!allowed(d)){x.classList.add("disabled");x.disabled=true}
+   if(selectedDate&&dateKey(d)===dateKey(selectedDate))x.classList.add("selected");
+   x.onclick=()=>selectDate(d);
+   box.appendChild(x);
+ }
+}
+function selectDate(d){
+ selectedDate=d; selectedTime=null;
+ document.getElementById("selectedDateText").textContent="2. Horarios para "+d.toLocaleDateString("es-CR",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
+ renderSlots(); updateSummary(); render();
+}
+function getTimes(d){
+ const day=d.getDay();
+ let start=day===0||day===6?11:8, end=day===0||day===6?18:15;
+ const times=[]; for(let minutes=start*60; minutes<=end*60-30; minutes+=30){const h=Math.floor(minutes/60), m=minutes%60; times.push(`${String(h).padStart(2,"0")}:${String(m).padStart(2,"0")}`)} return times;
+}
+function renderSlots(){
+ const box=document.getElementById("slots"); box.innerHTML="";
+ if(!selectedDate){box.innerHTML="<span style='color:#777'>Selecciona una fecha en el calendario.</span>";return}
+ getTimes(selectedDate).forEach(t=>{
+   const key=dateKey(selectedDate)+"_"+t, x=document.createElement("button");
+   x.type="button"; x.className="slot"; x.textContent=t;
+   if(bookings[key]){x.classList.add("taken");x.disabled=true}
+   else x.onclick=()=>{selectedTime=t;document.querySelectorAll(".slot").forEach(s=>s.classList.remove("selected"));x.classList.add("selected");updateSummary()};
+   if(selectedTime===t)x.classList.add("selected");
+   box.appendChild(x);
+ });
+}
+function updateSummary(){
+ const s=document.getElementById("summary");
+ if(!selectedDate||!selectedTime){s.innerHTML="Selecciona fecha y hora para ver el resumen.";return}
+ s.innerHTML=`<strong>Resumen de tu reserva</strong><br>📅 ${selectedDate.toLocaleDateString("es-CR",{weekday:"long",day:"numeric",month:"long",year:"numeric"})}<br>⏰ ${selectedTime}<br>💰 <strong>₡10.000</strong>`;
+}
+document.getElementById("prev").onclick=()=>{if(view.getFullYear()===2026&&view.getMonth()>9)view.setMonth(view.getMonth()-1)}
+document.getElementById("next").onclick=()=>{if(view.getFullYear()===2026&&view.getMonth()<11)view.setMonth(view.getMonth()+1)}
+document.getElementById("bookingForm").onsubmit=e=>{
+ e.preventDefault();
+ if(!selectedDate||!selectedTime){alert("Selecciona una fecha y un horario.");return}
+ const peopleCount=Number(document.getElementById("people").value);
+ if(!Number.isInteger(peopleCount)||peopleCount<1||peopleCount>5){alert("Cada sesión admite de 1 a 5 personas como máximo.");return}
+ const key=dateKey(selectedDate)+"_"+selectedTime;
+ if(bookings[key]){alert("Ese horario ya fue reservado.");renderSlots();return}
+ const data={
+  name:document.getElementById("name").value.trim(),
+  phone:document.getElementById("phone").value.trim(),
+  email:document.getElementById("email").value.trim(),
+  people:document.getElementById("people").value,
+  participants:document.getElementById("participants").value.trim()||"No indicado",
+  special:document.getElementById("special").value.trim()||"Ninguna",
+  date:selectedDate.toLocaleDateString("es-CR",{weekday:"long",day:"numeric",month:"long",year:"numeric"}),
+  time:selectedTime
+ };
+ bookings[key]=data; localStorage.setItem("clicz8_bookings",JSON.stringify(bookings));
+ const msg=`🎄 RESERVA – MINI SESIÓN NAVIDEÑA 2026 🎄
+
+Hola Clic Z8, quiero reservar una Mini Sesión Fotográfica Navideña.
+
+👤 Nombre: ${data.name}
+📱 WhatsApp: ${data.phone}
+📧 Correo: ${data.email}
+
+📅 Fecha: ${data.date}
+⏰ Hora: ${data.time}
+👨‍👩‍👧‍👦 Participantes: ${data.people} (máximo 5 personas por sesión)
+
+👶 Participantes/niños: ${data.participants}
+
+📝 Solicitud especial:
+${data.special}
+
+💰 Precio: ₡10.000
+
+Espero confirmación de mi cita. ¡Gracias!`;
+ window.open("https://wa.me/50688314475?text="+encodeURIComponent(msg),"_blank");
+ alert("¡Reserva registrada! Se abrirá WhatsApp para enviar los datos a Clic Z8.");
+ renderSlots(); updateSummary();
+};
+render(); renderSlots(); updateSummary();
+</script>
+</body>
+</html>
